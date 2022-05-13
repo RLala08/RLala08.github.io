@@ -2,14 +2,31 @@
     color: #F1C6C6;
     font-size: 45px;
     background-color: #1B1D4D;
+    margin: 0px;
+    height: 67px;
+    padding-top: 15px;
+    padding-left: 30px;
 }
 
-.black-blue-text {
-    color: #1B1D4D;
-}
 body {
     background-color: #ECFDF2;
 }
-.background-black-blue {
-    background-color: #1B1D4D;
+
+#major {
+    margin: 20px 0px 0px 0px;;
+    margin-left: 2.5px;
+    padding-left: 20px;
+    color: #1B1D4D;
+}
+
+#school {
+    margin-top: 9px;
+    font-size: 20px;
+    padding-left: 24px;
+    color: #511928;
+}
+
+.link-list {
+    font-size: medium;
+    margin: 0px 10px 10px 10px;
 }
