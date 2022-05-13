@@ -1,10 +1,7 @@
-.pink-header {
+#main-header {
     color: #F1C6C6;
     font-size: 45px;
     background-color: #1B1D4D;
-    margin: 0px;
-    border-left-width: 100px;
-    border-color: #1B1D4D;
 }
 
 .black-blue-text {
