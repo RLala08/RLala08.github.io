@@ -7,12 +7,13 @@
     padding-top: 2.5%;
     padding-left: 3%;
     padding-bottom: 1.5%;
+    box-shadow: 0px 4px 5px rgba(206, 87, 152, 0.673);
 }
 body {
     background-color: #e9fbfc/*#ECFDF2 rgb(250, 255, 255)*/;
 }
 #major {
-    margin-top: 3%;
+    margin-top: 4%;
     margin-left: 2.5%;
     padding-left: 2%;
     font-size: 150%;
