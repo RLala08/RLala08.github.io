@@ -5,24 +5,36 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link href="styles.css" rel="stylesheet" type="text/css">
     <title>Rohit Lala</title>
+
+    <!--top banner-->
     <h1 id="main-header"> Rohit Lala 
         <a class= "link-list" href="https://www.linkedin.com/in/rohitlala25/" target="_blank">&nbsp&nbspLinkedIn</a>
         <a class= "link-list" href="https://github.com/RLala08" target="_blank">GitHub</a>
-        <a class= "link-list" href="rohitlala08@gmail.com" target="_blank">rohitlala08@gmail.com</a>
+        <a class= "link-list" href="#contact">rohitlala08@gmail.com</a>
     </h1>
 </head>
 <main>
     <body>
+
+        <!--education-->
+        <h1 class="headers" id="education">Education</h1>
         <article>
             <h2 id="major"> Computer Engineering Student </h2>
             <h2 id="school"> Purdue University, West Lafayette, IN</h2>
         </article>
         <hr>
-        <!--<section class="link-list">
-            <ul><a href="https://www.linkedin.com/in/rohitlala25/" target="_blank">LinkedIn</a></ul>
-            <ul><a href="https://github.com/RLala08" target="_blank">GitHub</a></ul>
-            <ul><a href="rohitlala08@gmail.com" target="_blank">rohitlala08@gmail.com</a></ul>
-        </section> -->
+
+        <!--conact me-->
+        <h1 class="headers" id="contact">Contact Me</h1>
+        <form action="https://formspree.io/f/xzboyyzq" method="POST">
+            <label class="form-labels" for="email">Your email:</label>
+            <input type="email" name="email" placeholder="email@address.com" id="email-entry">
+            <br>
+            <label class="form-labels" for="message">Your message:</label>
+            <textarea name="message" placeholder="message" id="message-entry"></textarea>
+            <br>
+            <button type="submit" id="send-button">Send</button>
+        </form>
     </body>
 </main>
 </html>
