@@ -12,6 +12,9 @@ hr {
     background: /*#511928*/ #541940;
     border: 0%;
 }
+html {
+    scroll-behavior: smooth;
+}
 
 /*major text elements*/
 #main-header {
@@ -25,7 +28,7 @@ hr {
     box-shadow: 0px 4px 5px rgba(206, 87, 152, 0.673);
     text-align: left;
 }
-#school {
+.sub-sub-headers {
     margin-top: -0.5%;
     font-size: 125%;
     /*padding-left: 4.5%;*/
@@ -59,6 +62,13 @@ h3 {
     /*margin-left: 2.5%;
     padding-left: 2%;*/
     font-size: 150%;
+    color: /*#1B1D4D #4CBB17*/ #541940;
+}
+p {
+    margin-left: auto;
+    margin-right: auto;
+    max-width: 70%;
+    font-size: 110%;
     color: /*#1B1D4D #4CBB17*/ #541940;
 }
 
