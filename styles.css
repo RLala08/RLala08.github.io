@@ -81,6 +81,14 @@ p, label {
     font-size: 110%;
     color: /*#1B1D4D #4CBB17*/ #541940;
 }
+address {
+    margin: 5% -2% -2% -2%;
+    background-color: white;
+    padding: 2%;
+    font-style: normal;
+    color: gray;
+    font-weight: 1000;
+}
 
 /*links*/
 .link-list {
