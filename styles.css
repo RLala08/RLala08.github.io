@@ -51,7 +51,7 @@ html {
     text-align: center;
 }
 #welcome-bottom {
-    margin-bottom: 5%
+    margin-bottom: 6%
 }
 #scroll-down {
     text-decoration: none;
@@ -72,11 +72,14 @@ header {
     position: -moz-sticky;
     position: -o-sticky;
     position: -ms-sticky;
-    top: 1%; 
+    top: 2%; 
     left: 0.5%;
     width: 97%;
     border-radius: 15px;
     white-space: nowrap;
+    z-index: 1000;
+    overflow-x: hidden;
+    max-width: 100%;
 }
 .sub-sub-headers {
     margin-top: -0.5%;
@@ -178,6 +181,8 @@ body::-webkit-scrollbar-thumb:hover {
 }
 body::-webkit-scrollbar:hover {
     width: 0.6em;
+}
+
 }
 /*potential small device implementation
 @media (max-width: 800px) {
