@@ -30,6 +30,10 @@ html {
     /*background-image: radial-gradient(#ffd8f5, #ffffff);*/
     margin: -1.7%;
     position: sticky;
+    position: -webkit-sticky;
+    position: -moz-sticky;
+    position: -o-sticky;
+    position: -ms-sticky;
     top: -38em;
 }
 #half-page-break {
@@ -46,6 +50,9 @@ html {
     color:black;
     text-align: center;
 }
+#welcome-bottom {
+    margin-bottom: 5%
+}
 #scroll-down {
     text-decoration: none;
     color: black;
@@ -61,6 +68,10 @@ header {
     align-self: center;
     text-align: center; 
     position: sticky;
+    position: -webkit-sticky;
+    position: -moz-sticky;
+    position: -o-sticky;
+    position: -ms-sticky;
     top: 1%; 
     left: 0.5%;
     width: 97%;
