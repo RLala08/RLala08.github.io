@@ -148,7 +148,7 @@ header a:hover {
     font-size: 45%;
     padding: 0%;
     margin: 0%;
-    color: /*#1748bb*/ rgb(222, 217, 184);
+    color: /*#1748bb*/ rgba(233, 241, 241, 0.757);
     font-weight: bold;
     font-style: normal;
     text-decoration: none;
@@ -192,7 +192,7 @@ body::-webkit-scrollbar:hover {
         text-align: center;
     }
     #welcome-bottom {
-        margin-bottom: 14%
+        margin-bottom: 18%
     }
     header {
         color: /*#F1C6C6*/ rgb(233, 241, 241);
