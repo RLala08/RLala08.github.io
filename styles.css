@@ -186,20 +186,20 @@ body::-webkit-scrollbar:hover {
 /*potential small device implementation*/
 @media (max-width: 468px) {
     #welcome-top, #welcome-bottom {
-        font-size: 450%;
+        font-size: 400%;
         font-weight: bolder;
         color:black;
         text-align: center;
     }
     #welcome-bottom {
-        margin-bottom: 9%
+        margin-bottom: 14%
     }
     header {
         color: /*#F1C6C6*/ rgb(233, 241, 241);
         font-size: 85%;
         /*background-color: #4CBB17 #1B1D4D*/ background-image: linear-gradient(300deg, #89356c, #f85284);
         margin: 0 auto;
-        padding: 0.2% 0% 0.2% 0% !important;
+        padding: 0.3% 0% 0.3% 0% !important;
         box-shadow: 0px 4px 5px rgba(206, 87, 152, 0.673);
         align-self: center;
         text-align: center; 
