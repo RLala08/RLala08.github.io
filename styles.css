@@ -26,7 +26,7 @@ html {
     font-family: arial;
 }
 .intro-page {
-    height: 45em;
+    height: 100vh;
     /*background-image: radial-gradient(#ffd8f5, #ffffff);*/
     margin: -1.7%;
     position: sticky;
@@ -34,7 +34,7 @@ html {
     position: -moz-sticky;
     position: -o-sticky;
     position: -ms-sticky;
-    top: -38em;
+    top: -36em;
 }
 #half-page-break {
     height: 44%;
