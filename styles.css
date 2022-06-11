@@ -51,6 +51,10 @@ html {
     --bodytext-color: #541940;
     --header-color2: #f85284;
 }
+/* potential header transition
+header:hover {
+    background-image: linear-gradient(300deg, #49ab33, rgb(110, 192, 142));
+}*/
 
 /*major text elements*/
 #welcome-top, #welcome-bottom {
@@ -71,6 +75,7 @@ html {
     text-decoration: none;
     color: black;
     font-size: 240%;
+    /*animation: arrowbounce 2s infinite;*/
 }
 header {
     color: /*#F1C6C6*/ var(--header-font-color);
@@ -208,6 +213,16 @@ header a:active {
     color: var(--header-font-color);
 }
 
+/* potential animation
+@keyframes arrowbounce {
+    0% {
+        transform: translateY(0);
+    }
+    100% {
+        transform: translateY(-30px)
+    }
+}
+*/
 /*small device implementation*/
 @media (max-width: 468px) {
     #welcome-top, #welcome-bottom {
