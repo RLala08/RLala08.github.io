@@ -164,6 +164,12 @@ address {
     text-decoration: none;
     letter-spacing: normal;
 }
+#linkedin::after, #github::after {
+    content: "\00a0|";
+    color: /*#1748bb rgb(248, 242, 203)*/ var(--header-font-color);
+    /*font-style: italic;*/
+    font-size: 100% !important;
+}
 header a:hover {
     font-size: 45%;
     padding: 0%;
