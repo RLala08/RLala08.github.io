@@ -50,6 +50,7 @@ html {
     --header-font-color: rgb(233, 241, 241);
     --bodytext-color: #541940;
     --header-color2: #f85284;
+    --link-active: rgb(24, 20, 83);
 }
 /* potential header transition
 header:hover {
@@ -183,7 +184,33 @@ header a:active {
     font-size: 45%;
     padding: 0%;
     margin: 0%;
-    color: /*#1748bb*/ rgb(24, 20, 83);
+    color: /*#1748bb*/ var(--link-active);
+    font-weight: bold;
+    font-style: normal;
+    text-decoration: none;
+}
+main a {
+    padding: 0%;
+    margin: 0%;
+    color: /*#1748bb rgb(248, 242, 203)*/ var(--header-color2);
+    font-weight: bold;
+    /*font-style: italic;*/
+    text-decoration: none;
+    letter-spacing: normal;
+}
+main a:hover {
+    font-size: 103%;
+    padding: 0%;
+    margin: 0%;
+    color: /*#1748bb*/ rgba(56, 12, 36, 0.757);
+    font-weight: bold;
+    font-style: normal;
+    text-decoration: none;
+}
+main a:active {
+    padding: 0%;
+    margin: 0%;
+    color: /*#1748bb*/ var(--link-active);
     font-weight: bold;
     font-style: normal;
     text-decoration: none;
