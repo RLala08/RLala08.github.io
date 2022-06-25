@@ -57,6 +57,7 @@ html {
     position: -o-sticky;
     position: -ms-sticky;
     top: -38em;
+    display: block;
 }
 #half-page-break {
     height: 44%;
@@ -118,6 +119,7 @@ header {
     overflow-x: hidden;
     max-width: 100%;
     font-family: 'Work Sans', sans-serif;
+    display: block;
 }
 .sub-sub-headers {
     margin-top: -0.5%;
