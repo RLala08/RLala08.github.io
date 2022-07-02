@@ -115,6 +115,7 @@ header {
     width: 97%;
     border-radius: 15px;
     white-space: nowrap;
+    overflow-x: hidden;
     z-index: 1000;
     max-width: 100%;
     font-family: 'Work Sans', sans-serif;
@@ -295,6 +296,7 @@ main a:active {
         position: -ms-sticky;
         display: block;
         top: 2%; 
+        overflow-x: hidden;
         left: 0.5%;
         width: 97%;
         border-radius: 15px;
