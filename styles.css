@@ -57,7 +57,7 @@ html {
     position: -moz-sticky;
     position: -o-sticky;
     position: -ms-sticky;
-    top: -38em;
+    top: -37.5em;
     display: block;
 }
 #half-page-break {
@@ -111,7 +111,7 @@ header {
     position: -moz-sticky;
     position: -o-sticky;
     position: -ms-sticky;
-    top: 2vh; 
+    top: 2.5vh; 
     left: 0.5%;
     width: 97%;
     border-radius: 15px;
@@ -296,7 +296,7 @@ main a:active {
         position: -o-sticky;
         position: -ms-sticky;
         display: block;
-        top: 2%; 
+        top: 2.5vh; 
         overflow-x: hidden;
         left: 0.5%;
         width: 97%;
