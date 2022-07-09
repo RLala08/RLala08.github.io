@@ -97,7 +97,7 @@ header:hover {
     font-size: 240%;
     /*animation: arrowbounce 2s infinite;*/
 }
-header {
+#main-header {
     color: /*#F1C6C6*/ var(--header-font-color);
     font-size: 120%;
     /*background-color: #4CBB17 #1B1D4D*/ background-image: linear-gradient(300deg, #89356c, var(--header-color2));
@@ -284,11 +284,11 @@ main a:active {
     #welcome-bottom {
         margin-bottom: 0.5em;
     }
-    header {
+    #main-header {
         color: /*#F1C6C6*/ var(--header-font-color);
         font-size: 85%;
         /*background-color: #4CBB17 #1B1D4D*/ background-image: linear-gradient(300deg, #89356c, var(--header-color2));
-        margin-top: -30em;
+        margin-top: -31em;
         margin-bottom: 40vh;
         margin-left: 0%;
         margin-right: 0%;
