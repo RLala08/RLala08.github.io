@@ -41,7 +41,7 @@
 <main>
     <body>
         <!--About Me-->
-        <section>
+        <section class ="about-me-section">
             <h1 class="headers" id="about-me">About Me</h1>
             <p>I have always been passionate about the design of computer systems and the deep integration of software and hardware 
                 that powers our world. It has always fascinated me how the physical and procedural design of components can crucially 
@@ -199,3 +199,15 @@
     rohitlala08@gmail.com
 </address>
 </html>
+<script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script> <!--import jquery-->
+<script type="text/javascript">
+    /*intro page fade out animation*/
+    $(window).scroll(function(){
+    $(".intro-page").css("opacity", 1 - $(window).scrollTop() / 450);
+  });
+
+    /*about me fade in animation*/
+    $(window).scroll(function(){
+    $(".about-me-section").css("opacity", 0 + $(window).scrollTop() / 330);
+  });
+</script>
