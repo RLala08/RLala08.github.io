@@ -77,6 +77,9 @@ header:hover {
 }*/
 
 /*major text elements*/
+#about-me-section{
+    opacity: 0;
+}
 #welcome-top, #welcome-bottom {
     font-size: 500%;
     font-weight: bolder;

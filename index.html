@@ -41,7 +41,7 @@
 <main>
     <body>
         <!--About Me-->
-        <section class ="about-me-section">
+        <section id="about-me-section">
             <h1 class="headers" id="about-me">About Me</h1>
             <p>I have always been passionate about the design of computer systems and the deep integration of software and hardware 
                 that powers our world. It has always fascinated me how the physical and procedural design of components can crucially 
@@ -52,7 +52,7 @@
         <hr>
 
         <!--Education-->
-        <section>
+        <section id="education-section">
             <h1 class="headers" id="education">Education</h1>
             <h2 class="sub-headers"> Computer Engineering Student </h2>
             <h2 class="sub-sub-headers"> Purdue University, West Lafayette, IN</h2>
@@ -142,8 +142,8 @@
         <hr>
 
         <!--Certificates-->
-        <section>
-            <h1 class="headers" id="leadership">Certificates</h1>
+        <section id="certificates-section">
+            <h1 class="headers" id="certificates">Certificates</h1>
             <article role="region">
                 <h2 class="sub-headers">JavaScript Algorithms and Data Structures</h2>
                 <h2 class="sub-sub-headers">freeCodeCamp</h2>
@@ -167,7 +167,7 @@
 
         <!--Experience-->
         <section>
-            <h1 class="headers" id="leadership">Experience</h1>
+            <h1 class="headers" id="experience">Experience</h1>
             <article role="region">
                 <h2 class="sub-headers">Retail Associate</h2>
                 <h2 class="sub-sub-headers">Kohl's</h2>
@@ -200,14 +200,5 @@
 </address>
 </html>
 <script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script> <!--import jquery-->
-<script type="text/javascript">
-    /*intro page fade out animation*/
-    $(window).scroll(function(){
-    $(".intro-page").css("opacity", 1 - $(window).scrollTop() / 450);
-  });
-
-    /*about me fade in animation*/
-    $(window).scroll(function(){
-    $(".about-me-section").css("opacity", 0 + $(window).scrollTop() / 330);
-  });
+<script type="text/javascript" src="script.js">
 </script>
