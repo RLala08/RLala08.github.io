@@ -186,7 +186,7 @@ address {
     /*font-style: italic;*/
     text-decoration: none;
     letter-spacing: normal;
-    display: none;
+    /*display: none;*/
 }
 #linkedin::after, #github::after {
     content: "\00a0|";

@@ -1,5 +1,5 @@
 /*on load*/
-$(document).ready(function () {
+$(document).ready(function(){
     /*welcome text fade in*/
     $("#welcome-top, #welcome-bottom, #scroll-down").fadeIn(2000);
     /*arrow bounce*/
@@ -30,4 +30,4 @@ $(window).scroll(function(){
 	else if(entries[0].intersectionRatio === 1)
         $(".link-list").show(800);
 }, { threshold: [0,1] });
-observer.observe(document.querySelector("#main-header"));
+observer.observe(document.querySelector("#main-header"));*/
