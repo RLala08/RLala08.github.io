@@ -1,3 +1,4 @@
+let headerTop = $("#main-header").offset().top; //scroll point top of header
 /*on load*/
 $(document).ready(function(){
     /*welcome text fade in*/
@@ -11,23 +12,13 @@ $(window).scroll(function(){
     $(".intro-page").css("opacity", 1 - $(window).scrollTop() / 450);
     /*about me fade in animation*/
     $("#about-me-section").css("opacity", 0 + $(window).scrollTop() / 330);
-
-    /*if($(window).scrollTop() > 150) {
-        $(".link-list").show(800);
-    }
+    /*links show animation*/
+    if($(window).scrollTop() > (headerTop)){
+        $(".link-list").show(500);
+     }
     else{
-        $(".link-list").hide(800);
-    }*/
+        $(".link-list").hide(500);
+     }
     /*implement gradient animation on main header
     $("#main-header").css("background-image", 0 + $(window).scrollTop() / 330);*/
 });
-
-/*let observer = new IntersectionObserver(function(entries) {
-	// no intersection with screen
-	if(entries[0].intersectionRatio === 0)
-        $(".link-list").hide(800);
-	// fully intersects with screen
-	else if(entries[0].intersectionRatio === 1)
-        $(".link-list").show(800);
-}, { threshold: [0,1] });
-observer.observe(document.querySelector("#main-header"));*/
