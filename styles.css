@@ -144,6 +144,7 @@ header:hover {
 }
 .form-labels {
     color: /*#1B1D4D #4CBB17*/ var(--bodytext-color);
+    
 }
 h3 {
     font-size: 110%;
