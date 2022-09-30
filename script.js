@@ -12,6 +12,7 @@ $(window).scroll(function(){
     $(".intro-page").css("opacity", 1 - $(window).scrollTop() / 450);
     /*about me fade in animation*/
     $("#about-me-section").css("opacity", 0 + $(window).scrollTop() / 330);
+    $("#education-section").css("opacity", 0 + $(window).scrollTop() / 330);
     /*links show animation*/
     if($(window).scrollTop() > (headerTop)){
         $(".link-list").show(500);

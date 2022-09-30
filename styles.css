@@ -77,7 +77,7 @@ header:hover {
 }*/
 
 /*major text elements*/
-#about-me-section{
+#about-me-section, #education-section{
     opacity: 0;
 }
 #welcome-top, #welcome-bottom {
